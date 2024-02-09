@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav div {
+  margin-right: 0.7rem;
+}
+nav a {
+  display: inline-block;
+  padding: 0.7rem;
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+.hero {
+  height: 5vh;
+  border-top: solid black 2px;
+  border-bottom: solid black 2px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+.hero a {
+  color: black;
+  text-decoration: none;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  margin: 1rem;
+}
+
+.card {
+  height: 300px;
+  width: 300px;
+  background-color: rgb(55, 82, 73);
+  background-image: url();
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  transition: scale 240ms ease;
+}
+
+.card:hover {
+  scale: 110%;
+}
+
+.card h3 {
+  color: white;
+  height: 10%;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translateX(-50%); /* THIS IS HOW YOU CENTER SMT WITH POSITIONS */
+  width: 100%;
+  padding: 0.6rem 0rem;
+  text-align: center;
+  background-color: rgba(54, 48, 48, 0.343);
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  background-color: black;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
