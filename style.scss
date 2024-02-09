@@ -4,6 +4,9 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    h1{
+        margin: 1rem;
+    }
     div{
         margin-right: .7rem;
     }
@@ -57,12 +60,12 @@ nav{
         }
         h3{
             display: none;
+            padding: 1rem;
             color: white;
-            height: 2rem;
             position: absolute;
-            top: 80%;
+            top: 90%;
             left: 50%;
-            transform: /* translateY(-50%)  */translateX(-50%);  /* THIS IS HOW YOU CENTER SMT WITH POSITIONS */
+            transform: translateY(-50%) translateX(-50%);  /* THIS IS HOW YOU CENTER SMT WITH POSITIONS */
             width: 100%;
             text-align: center;
             background-color: rgba(54, 48, 48, 0.343);
@@ -100,7 +103,7 @@ nav{
 
 footer{
     text-align: center;
-    padding: 2rem;
+    padding: 1.5rem;
     background-color: black;
     color: white;
 }
