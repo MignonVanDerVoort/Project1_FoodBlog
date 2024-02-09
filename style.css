@@ -34,39 +34,70 @@ nav a {
   text-decoration: none;
 }
 
+.main {
+  display: flex;
+  justify-content: center;
+}
+
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1rem;
-  margin: 1rem;
+  margin: 1rem 20rem;
 }
-
-.card {
+.grid .card {
   height: 300px;
   width: 300px;
   background-color: rgb(55, 82, 73);
-  background-image: url();
   background-size: cover;
   background-position: center;
   position: relative;
   transition: scale 240ms ease;
 }
-
-.card:hover {
+.grid .card:hover {
   scale: 110%;
 }
-
-.card h3 {
+.grid .card:hover h3 {
+  display: block;
+}
+.grid .card h3 {
+  display: none;
   color: white;
-  height: 10%;
+  height: 2rem;
   position: absolute;
-  top: 90%;
+  top: 80%;
   left: 50%;
   transform: translateX(-50%); /* THIS IS HOW YOU CENTER SMT WITH POSITIONS */
   width: 100%;
-  padding: 0.6rem 0rem;
   text-align: center;
   background-color: rgba(54, 48, 48, 0.343);
+}
+.grid .pic1 {
+  background-image: url(images/pizza-3007395_1280.jpg);
+}
+.grid .pic2 {
+  background-image: url(images/hamburger-494706_1280.jpg);
+}
+.grid .pic3 {
+  background-image: url(images/toast-6011147_1280.jpg);
+}
+.grid .pic4 {
+  background-image: url(images/food-865102_1280.jpg);
+}
+.grid .pic5 {
+  background-image: url(images/pasta-1264056_1280.jpg);
+}
+.grid .pic6 {
+  background-image: url(images/eggs-7064498_1280.jpg);
+}
+.grid .pic7 {
+  background-image: url(images/abstract-1238657_1280.jpg);
+}
+.grid .pic8 {
+  background-image: url(images/margarita-1839361_1280.jpg);
+}
+.grid .pic9 {
+  background-image: url(images/pancakes-2291908_1280.jpg);
 }
 
 footer {
@@ -74,4 +105,16 @@ footer {
   padding: 2rem;
   background-color: black;
   color: white;
+}
+
+/* ???????????????? */
+@media (480px < width < 768px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (width <= 480px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
 }/*# sourceMappingURL=style.css.map */
