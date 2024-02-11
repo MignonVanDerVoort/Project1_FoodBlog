@@ -1,39 +1,5 @@
 @use "boilerplate";
 
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    h1{
-        margin: 1rem;
-    }
-    div{
-        margin-right: .7rem;
-    }
-    a{
-        display: inline-block;
-        padding: .7rem;
-        text-decoration: none;
-        font-size: 22px;
-        color: black;
-    }
-}
-
-
-.hero{
-    height: 5vh;
-    border-top: solid black 2px;
-    border-bottom: solid black 2px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    color: white;
-    a{
-        color: black;
-        text-decoration: none;
-    }
-}
-
 .main  {
     display: flex;
     justify-content: center;
@@ -43,7 +9,7 @@ nav{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
-    margin: 1rem 20rem;
+    margin: 1rem;
     .card{
         height: 300px;
         width: 300px;
@@ -101,12 +67,7 @@ nav{
 }
 
 
-footer{
-    text-align: center;
-    padding: 1.5rem;
-    background-color: black;
-    color: white;
-}
+
 
 
 /* ???????????????? */
