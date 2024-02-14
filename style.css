@@ -126,7 +126,6 @@ footer .footerLinks a {
   background-image: url(images/pancakes-2291908_1280.jpg);
 }
 
-/* ???????????????? */
 @media (480px < width < 768px) {
   .grid {
     grid-template-columns: 1fr 1fr;
