@@ -1,4 +1,4 @@
-This was my very first front-end project for Code Factory and therefore only uses HTML.
+This was my very first front-end project for Code Factory and therefore only uses HTML and CSS (SCSS).
 
 **Note: Not all of the links are active, as this was not the goal of the project. Only the "Home" and "Recipe of the Month" links are active. 
 
